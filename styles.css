@@ -1,60 +1,38 @@
+/* Resetando margens */
 * {
   margin: 0px;
   left: 0;
   top: 0;
   box-sizing: border-box;
-  color: white;
 }
+
+/* Geral */
 
 body,
 html {
-  background-color: black;
-  position: absolute;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
+  background-color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+}
+
+/* Header */
 
 header {
-  height: 10rem;
   padding: 10px;
   text-align: center;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-aside {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-  flex: 30%;
-  height: 100%;
-  left: 0;
-}
-
-.menu {
-  display: flex;
-  flex-direction: column;
-  height: 500px;
-  width: 300px;
-  border-radius: 10px;
-  border: 1px solid rgba(0, 0, 0, 0.233);
-}
-
-.menu h1 {
-  flex: 20%;
-  text-align: center;
-  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.356);
 }
 
 nav {
-  flex: 80%;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -63,35 +41,56 @@ nav {
 nav > * {
   flex-grow: 1;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
+  color: white;
 }
 
 nav > *:hover {
   background-color: rgba(185, 166, 166, 0.2);
 }
 
-.sections {
-  flex: 70%;
+/* Corpo principal */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section {
+  display: flex;
+  align-content: space-between;
   text-align: justify;
   padding: 10px;
-  max-width: calc(100% - 50px);
+  margin: 50px 0px 50px 0px;
 }
 
-section:nth-child(even) {
+.infoContainer {
+  display: flex;
+  min-width: 800px;
+  justify-content: space-around;
+}
+
+.infoText {
+  width: 300px;
+}
+
+.infoText:nth-child(even) {
   background-color: antiquewhite;
-  margin-top: 50px;
-}
-
-section:nth-child(even) > * {
   color: black;
 }
 
-.sectionContainer {
-  margin-top: 20px;
+.infoText:nth-child(odd) {
+  color: white;
 }
+
+img {
+  max-width: 300px;
+  height: 200px;
+}
+
+/* Footer */
 
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.356);
