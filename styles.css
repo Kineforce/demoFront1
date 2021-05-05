@@ -66,6 +66,10 @@ section {
   margin: 50px 0px 50px 0px;
 }
 
+.row {
+  margin-top: 5%;
+}
+
 .infoContainer {
   display: flex;
   min-width: 800px;
@@ -99,6 +103,7 @@ ul > * {
 footer {
   border-top: 1px solid rgba(255, 255, 255, 0.356);
   text-align: center;
+  margin-top: 100px;
   width: 100%;
 }
 
