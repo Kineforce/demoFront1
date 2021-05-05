@@ -15,30 +15,38 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <div class="container-fluid">
-        <h1>Bem vindo ao meu currículo! <br />*em desenvolvimento*</h1>
-        <nav>
-          <a href="#sobremim"
-            ><span class="spanNav">Um pouco sobre mim</span></a
-          >
-          <a href="#projetos"> <span class="spanNav">Meus projetos</span></a>
-          <a href="#experiencias"
-            ><span class="spanNav">Empresas em que trabalhei</span></a
-          >
-          <a href="#contato"><span class="spanNav">Contato</span></a>
-        </nav>
-      </div>
+    <header class="container-fluid">
+      <h1>Bem vindo ao meu currículo! <br />*em desenvolvimento*</h1>
+      <nav class="navbar navbar-expand-lg justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobremim"
+              >Sobre mim <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencias">Carreira</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="container-md" id="sobremim">
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-3 customColor">
-            Meu nome é Lucas, tenho 20 anos, sou estudante de Análise e
-            Desenvolvimento de Sistemas, gosto de animes, jogos, música e criar
-            códigos para diversos tipos de problemas. Gosto de assistir séries e
-            filmes, preferencialmente em inglês, pois gosto de praticar o mesmo
-            e também por que gosto da dublagem original xD
+          <div class="col-lg-4 col-md-4 customColor customSize">
+            <div>
+              Meu nome é Lucas, tenho 20 anos, sou estudante de Análise e
+              Desenvolvimento de Sistemas, gosto de animes, jogos, música e
+              criar códigos para diversos tipos de problemas. Gosto de assistir
+              séries e filmes, preferencialmente em inglês, pois gosto de
+              praticar o mesmo e também por que gosto da dublagem original xD
+            </div>
           </div>
           <div class="col-4 justify-content-center">
             <img
@@ -50,17 +58,19 @@
       </div>
       <div class="container-md" id="projetos">
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-3 customColor">
-            Desenvolvo alguns projetos que estão disponíveis no meu
-            <a href="https://www.github.com/Kineforce" target="_blank"
-              >GitHub</a
-            >
-            tenho experiências com programação em PHP, utilizando os frameworks
-            CodeIgnite e Laravel. Consigo desenvolver aplicações web utilizando
-            HTML, CSS e Javacript, e tenho iniciado os estudos em ReactJS. Meu
-            forte não é UX/UI, mas estou praticando para um dia chegar lá, porém
-            creio que consigo quebrar alguns galhos de vez em quando no
-            front-end.
+          <div class="col-lg-4 col-md-3 customColor customSize">
+            <div>
+              Desenvolvo alguns projetos que estão disponíveis no meu
+              <a href="https://www.github.com/Kineforce" target="_blank"
+                >GitHub</a
+              >
+              tenho experiências com programação em PHP, utilizando os
+              frameworks CodeIgnite e Laravel. Consigo desenvolver aplicações
+              web utilizando HTML, CSS e Javacript, e tenho iniciado os estudos
+              em ReactJS. Meu forte não é UX/UI, mas estou praticando para um
+              dia chegar lá, porém creio que consigo quebrar alguns galhos de
+              vez em quando no front-end.
+            </div>
           </div>
           <div class="col-4">
             <img
@@ -72,23 +82,25 @@
       </div>
       <div class="container-md" id="experiencias">
         <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-3 customColor">
-            Sou um programador iniciante, por enquanto em toda minha carreira,
-            trabalhei em duas empresas: <br /><br />
-            <ul class="jobsDescription">
-              <li>IESB</li>
-              <span>
-                IESB é a empresa atual em que trabalho, aqui tive meu primeiro
-                com programação em tempo real, utilizando PHP, HTML, CSS,
-                Javascript e também um pouco de ASP.</span
-              >
-              <li>ASNAB</li>
-              <span>
-                ASNAB foi a primeira empresa em que trabalhei, foi onde aprendi
-                como se relacionar com pessoas em um ambiente de trabalho,
-                responsabilidade e confiança.
-              </span>
-            </ul>
+          <div class="col-lg-4 col-md-3 customColor customSize">
+            <div>
+              Sou um programador iniciante, por enquanto em toda minha carreira,
+              trabalhei em duas empresas: <br /><br />
+              <ul class="jobsDescription">
+                <li>IESB</li>
+                <span>
+                  IESB é a empresa atual em que trabalho, aqui tive meu primeiro
+                  com programação em tempo real, utilizando PHP, HTML, CSS,
+                  Javascript e também um pouco de ASP.</span
+                >
+                <li>ASNAB</li>
+                <span>
+                  ASNAB foi a primeira empresa em que trabalhei, foi onde
+                  aprendi como se relacionar com pessoas em um ambiente de
+                  trabalho, responsabilidade e confiança.
+                </span>
+              </ul>
+            </div>
           </div>
           <div class="col-4">
             <img

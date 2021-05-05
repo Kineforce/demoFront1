@@ -34,7 +34,7 @@ header {
   padding: 10px;
   text-align: center;
 }
-
+/* 
 nav {
   padding: 10px;
   display: flex;
@@ -51,6 +51,9 @@ nav > * {
 
 nav > *:hover {
   background-color: rgba(185, 166, 166, 0.2);
+} */
+
+@media only screen and (max-width: 413px) {
 }
 
 /* Corpo principal */
@@ -61,6 +64,11 @@ nav > *:hover {
 
 .row > * {
   margin: 50px;
+}
+
+.customColor div {
+  border-left: 5px solid darkblue;
+  padding-left: 5px;
 }
 
 .infoContainer {
@@ -74,9 +82,13 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 992px) {
   .col-4 {
     width: auto;
+  }
+
+  .customSize {
+    width: 100%;
   }
 }
 
